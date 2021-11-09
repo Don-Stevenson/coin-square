@@ -1,16 +1,9 @@
-body {
-    background-color: rgb(218, 80, 38);
-}
-
-
-pageStyles {
-  color: "#232129";
-  padding: 96;
-  font-family:  "-apple-system, Roboto, sans-serif, serif";
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    padding: 50px;
 };
 
-headingStyles {
-  margin-top: 0;
-  margin-bottom: 64;
-  max-width: 320,
+body {
+    background-color: #ffffff
 };
