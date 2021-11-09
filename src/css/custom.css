@@ -1,31 +1,37 @@
-.top-line-text{
-    font: IBM Plex Sans;
-    font-size: 15px;
-    font-weight: bold;
-    color: #000000;
+.sticky-component {
+  display: inline-flex;
+  background-color: #ffffff;
+  height: 50px;
 }
 
-.bottom-line-text{
-    font: IBM Plex Sans;
-    font-size: 12px;
-    font-weight: bold;
-    color: #595959;
+body {
+  font-family: "IBM Plex Sans";
+  background-color: #ecd926;
+}
+
+.top-line-text {
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.bottom-line-text {
+  display: flex;
+  font-size: 12px;
+  font-weight: bold;
+  color: #595959;
 }
 
 .button {
-    padding: 8px 18px;
-    border-radius: 20px;
-    background-color: #1F6CFF;
-    color: white;
+  font-family: "IBM Plex Sans";
+  padding: 8px 18px;
+  border-radius: 20px;
+  background-color: #1f6cff;
+  color: white;
 }
 
 h1 {
-    font: IBM Plex Sans;
-    font-size: 45px;
-    padding: 50px;
-};
-
-
-body {
-    background-color: #ffffff
-};
+  font-size: 45px;
+  padding: 50px;
+}
