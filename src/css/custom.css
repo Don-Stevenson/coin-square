@@ -1,8 +1,30 @@
+.top-line-text{
+    font: IBM Plex Sans;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.bottom-line-text{
+    font: IBM Plex Sans;
+    font-size: 12px;
+    font-weight: bold;
+    color: #595959;
+}
+
+.button {
+    padding: 8px 18px;
+    border-radius: 20px;
+    background-color: #1F6CFF;
+    color: white;
+}
+
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: IBM Plex Sans;
     font-size: 45px;
     padding: 50px;
 };
+
 
 body {
     background-color: #ffffff
