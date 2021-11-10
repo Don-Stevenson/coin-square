@@ -9,8 +9,10 @@ function StickyBanner(props) {
       <div className="sticky-component">
         <img src={logo} alt="Coinsquare Logo" />
         <div className="sticky__text">
-          <div className="top-line-text">Quick Trade</div>
-          <div className="bottom-line-text">Get it on the App Store</div>
+          <div className="sticky__top-line-text">Quick Trade</div>
+          <div className="sticky__bottom-line-text">
+            Get it on the App Store
+          </div>
         </div>
       </div>
       <div className="sticky__button-layout">
