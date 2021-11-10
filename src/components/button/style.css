@@ -1,0 +1,9 @@
+.button {
+  font-family: "IBM Plex Sans";
+  border: 0;
+  padding: 8px 18px;
+  border-radius: 20px;
+  background-color: #1f6cff;
+  color: white;
+  font-weight: bolder;
+}

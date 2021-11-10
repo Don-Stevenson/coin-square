@@ -1,16 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    background-color: rgb(218, 80, 38);
+  font-family: "IBM Plex Sans";
+  background-color: #ecd926;
 }
 
 
-pageStyles {
-  color: "#232129";
-  padding: 96;
-  font-family:  "-apple-system, Roboto, sans-serif, serif";
-};
-
-headingStyles {
-  margin-top: 0;
-  margin-bottom: 64;
-  max-width: 320,
-};
+h1 {
+  font-size: 45px;
+  padding: 50px;
+}
