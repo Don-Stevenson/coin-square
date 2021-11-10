@@ -1,7 +1,6 @@
-.sticky-component {
-  display: inline-flex;
-  background-color: #ffffff;
-  height: 50px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -9,27 +8,6 @@ body {
   background-color: #ecd926;
 }
 
-.top-line-text {
-  display: flex;
-  font-size: 15px;
-  font-weight: bold;
-  color: #000000;
-}
-
-.bottom-line-text {
-  display: flex;
-  font-size: 12px;
-  font-weight: bold;
-  color: #595959;
-}
-
-.button {
-  font-family: "IBM Plex Sans";
-  padding: 8px 18px;
-  border-radius: 20px;
-  background-color: #1f6cff;
-  color: white;
-}
 
 h1 {
   font-size: 45px;
