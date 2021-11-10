@@ -1,9 +1,7 @@
 import * as React from "react";
 import "../css/custom.css";
 import StickyBanner from "../components/StickyBanner";
-import "@fontsource/ibm-plex-sans";
 
-// markup
 const IndexPage = () => {
   return (
     <div>
@@ -20,7 +18,7 @@ const IndexPage = () => {
         ut sed leo. Etiam tempor diam vitae est ornare, eget aliquam metus
         commodo.
       </p>
-      {" "}
+      <br />
 
       <p>
         In finibus commodo justo vel posuere. Aliquam et semper sem. Duis semper
@@ -41,7 +39,8 @@ const IndexPage = () => {
         Mauris non nisi ac turpis sollicitudin facilisis. Aliquam eget tellus id
         sem mattis eleifend. Donec ullamcorper mauris quis diam varius, ut
         blandit nibh lobortis. Etiam ut mauris sapien.
-      </p>{" "}
+      </p>
+      <br />
 
       <p>
         Integer rhoncus varius diam vitae gravida. Nullam lobortis malesuada
@@ -61,7 +60,7 @@ const IndexPage = () => {
         Vivamus est nisl, malesuada eget sem id, malesuada tristique purus. Ut
         lacinia diam et massa consequat laoreet. Donec facilisis quis justo ac
         suscipit. Praesent condimentum sapien vitae libero commodo, a dictum
-        libero ornare. Sed maximus interdum cursus. 
+        libero ornare. Sed maximus interdum cursus.
       </p>
       <StickyBanner />
     </div>

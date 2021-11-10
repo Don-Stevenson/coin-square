@@ -3,6 +3,7 @@
 }
 
 @media only screen and (max-width: 480px) {
+    
   .sticky-layout {
     position: sticky;
     display: flex;
@@ -12,9 +13,11 @@
     height: 86px;
     padding-right: 20px;
   }
+
   .sticky__text {
     margin: auto;
   }
+
   .sticky-component {
     display: flex;
   }
@@ -24,18 +27,17 @@
     justify-content: center;
     align-items: center;
   }
-}
+  .sticky__top-line-text {
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+  }
 
-.top-line-text {
-  display: flex;
-  font-size: 15px;
-  font-weight: bold;
-  color: #000000;
-}
-
-.bottom-line-text {
-  display: flex;
-  font-size: 12px;
-  font-weight: bold;
-  color: #595959;
+  .sticky__bottom-line-text {
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    color: #595959;
+  }
 }
