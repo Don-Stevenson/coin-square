@@ -1,0 +1,41 @@
+.sticky-layout {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .sticky-layout {
+    position: sticky;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    bottom: 0;
+    height: 86px;
+    padding-right: 20px;
+  }
+  .sticky__text {
+    margin: auto;
+  }
+  .sticky-component {
+    display: flex;
+  }
+
+  .sticky__button-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.top-line-text {
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.bottom-line-text {
+  display: flex;
+  font-size: 12px;
+  font-weight: bold;
+  color: #595959;
+}
