@@ -1,9 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function Button(props) {
-  return (
-    <button className="button">{props.children}</button>
-  );
+function Button({ children }) {
+  return <button className="button">{children}</button>;
 }
 export default Button;
