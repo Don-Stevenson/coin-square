@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../images/logo.png";
-import Button from "../button";
+import Button from "../Button";
 import "./style.css";
 import "@fontsource/ibm-plex-sans";
 

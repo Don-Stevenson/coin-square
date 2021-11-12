@@ -3,7 +3,7 @@ import "../css/custom.css";
 import StickyBanner from "../components/StickyBanner";
 
 const IndexPage = () => {
-  return (
+   return (
     <div>
       <h1>Coinsquare Take&nbsp;Home</h1>
       <p>
