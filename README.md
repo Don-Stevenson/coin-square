@@ -34,7 +34,7 @@
 
 ### The take home looks like:
 
-- **Desktop view**
+  - **Desktop view**
   
   !["Desktop view"](https://github.com/Don-Stevenson/coin-square/blob/main/docs/desktop%20view.jpg)
 
