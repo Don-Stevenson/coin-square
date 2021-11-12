@@ -1,7 +1,11 @@
+
+/* if larger than 480px screen size, don't display the sticklayout div */
 .sticky-layout {
   display: none;
 }
 
+
+/* use media query to only display on screens 480 and smaller */
 @media only screen and (max-width: 480px) {
     
   .sticky-layout {
