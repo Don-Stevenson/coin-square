@@ -35,10 +35,12 @@
 ### The take home looks like:
 
 - **Desktop view**
+  
   !["Desktop view"](https://github.com/Don-Stevenson/coin-square/blob/main/docs/desktop%20view.jpg)
 
   - **Mobile view**
-  !["Mobile view"](https://github.com/Don-Stevenson/coin-square/blob/main/docs/mobile%20view.jpg)
+  
+     !["Mobile view"](https://github.com/Don-Stevenson/coin-square/blob/main/docs/mobile%20view.jpg)
 
 
 ## 🚀 Gatsby Quick Start Guide
