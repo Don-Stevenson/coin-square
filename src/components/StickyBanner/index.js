@@ -4,7 +4,8 @@ import Button from "../Button";
 import "./style.css";
 import "@fontsource/ibm-plex-sans";
 
-function StickyBanner(props) {
+// create a sticky banner to specs given using display flex and a series of divs
+function StickyBanner() {
   return (
     <div className="sticky-layout">
       <div className="sticky-component">
