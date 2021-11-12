@@ -9,10 +9,12 @@
   ],
   "scripts": {
     "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "start": "run-p start:**",
+    "start:app": "npm run develop",
+    "start:lambda": "netlify-lambda serve src/functions",
+    "build": "gatsby build && netlify-lambda build src/functions",
+    "build:app": "gatsby build",
+    "build:lambda": "netlify-lambda build src/functions"
   },
   "dependencies": {
     "@fontsource/ibm-plex-sans": "^4.5.1",
@@ -25,5 +27,10 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "sass": "^1.43.4"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^2.0.1",
+    "netlify-lambda": "^2.0.15",
+    "npm-run-all": "^4.1.5"
   }
 }
