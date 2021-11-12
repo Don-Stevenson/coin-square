@@ -1,6 +1,41 @@
 # Coin Square Take Home Evaluation
 
-### Don Stevenson Nov 8th 2021 
+### Don Stevenson Nov 8th 2021
+
+- Created to complete the following requirements of the Coinsquare tech challenge using Gatsby
+
+1. build a sticky banner to given spec for mobile views only
+2. deploy to netlify
+3. build a serverless function that returns a quick-trade.ca link and use that link on the 'get' button on the sticky to open the url on click
+   
+[The deployed site be found here on netlify](https://cranky-joliot-914ff9.netlify.app/)
+
+## Local install instructions
+
+1.
+
+- use ```shell
+  # clome project locally
+  git clone git@github.com:Don-Stevenson/coin-square.git
+  ```
+
+2.
+
+- use ```shell
+  # install depencies in your local dir
+  npm install
+  ```
+
+3.
+
+- use ```shell
+  # run project and lamba server concurrently
+  npm start
+  ```
+
+4.
+
+- Enjoy the site!
 
 ## 🚀 Gatsby Quick Start Guide
 
