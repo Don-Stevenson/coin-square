@@ -21,12 +21,14 @@
 2.  **Install project**
 - ```shell
   # install depencies in your local dir
-  npm install ```
+  npm install 
+  ```
 
 3.  **Start project**
 - ```shell
   # to run project and lamba server concurrently
-  npm start ```
+  npm start 
+  ```
 
 4.  **Enjoy the site!**
 
