@@ -2,6 +2,8 @@ import * as React from "react";
 import "../css/custom.css";
 import StickyBanner from "../components/StickyBanner";
 
+// main index page that contains H1 and some Lorem Ispum paragraphs
+// to show the sticky banner is working
 const IndexPage = () => {
    return (
     <div>
