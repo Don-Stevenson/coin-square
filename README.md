@@ -12,24 +12,24 @@
 
 ## Local install instructions
 
-1.
+1.  **Create a Gatsby site.**
 
-- use ```shell
-  # clome project locally
+ ```shell
+  # clone project locally
   git clone git@github.com:Don-Stevenson/coin-square.git
   ```
 
 2.
 
-- use ```shell
+- ```shell
   # install depencies in your local dir
   npm install
   ```
 
 3.
 
-- use ```shell
-  # run project and lamba server concurrently
+ ```shell
+  # to run project and lamba server concurrently
   npm start
   ```
 
