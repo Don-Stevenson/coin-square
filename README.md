@@ -13,19 +13,19 @@
 ## Local install instructions
 
 1.  **Clone project**
- ```shell
+  ```shell
   # clone project locally
   git clone git@github.com:Don-Stevenson/coin-square.git
   ```
 
 2.  **Install project**
-- ```shell
+  ```shell
   # install depencies in your local dir
   npm install 
   ```
 
 3.  **Start project**
-- ```shell
+  ```shell
   # to run project and lamba server concurrently
   npm start 
   ```
