@@ -8,7 +8,7 @@
 2. deploy to netlify
 3. build a serverless function that returns a quick-trade.ca link and use that link on the 'get' button on the sticky to open the url on click
    
-[The deployed site be found here on netlify](https://cranky-joliot-914ff9.netlify.app/)
+[The Link to the deployed site can be found here!](https://cranky-joliot-914ff9.netlify.app/)
 
 ## Local install instructions
 
